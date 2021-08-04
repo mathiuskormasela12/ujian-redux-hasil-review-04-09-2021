@@ -1,0 +1,13 @@
+.btn {
+	border: none;
+  background-color: $info;
+	@include button-padding(Big);
+	cursor: pointer;
+	color: white;
+	font-size: 'Times New Roman';
+	@extend %borderBtn;
+	transition: opacity 0.5s;
+	&:hover {
+		opacity: 0.8;
+	}
+}

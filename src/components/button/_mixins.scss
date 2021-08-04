@@ -1,0 +1,7 @@
+@mixin button-padding($type) {
+  @if($type : Big) {
+		padding: 10px 15px;
+	} @else {
+		padding:8px 12px;
+	}
+}
